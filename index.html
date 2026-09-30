@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parthbhai Bhutka — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ TOPBAR ============ -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="brand"><span class="brand-mark"></span> PARTHBHAI&nbsp;BHUTKA</a>
+    <nav class="index-nav" aria-label="Section index">
+      <a href="#specs">01 Specs</a>
+      <a href="#projects">02 Plans</a>
+      <a href="#education">03 Survey</a>
+      <a href="#contact">04 Contact</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <button class="toggle-btn" id="themeToggle" aria-label="Toggle dark and light theme">
+        <span class="toggle-dot" id="toggleDot">
+          <svg id="toggleIcon" viewBox="0 0 24 24" fill="none" stroke="#0C2338" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/></svg>
+        </span>
+        <span id="toggleLabel">Paper</span>
+      </button>
+      <button class="nav-mobile-toggle" id="drawerOpen" aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-drawer" id="drawer">
+  <button class="drawer-close" id="drawerClose" aria-label="Close menu">×</button>
+  <a href="#specs">01 — Specs</a>
+  <a href="#projects">02 — Plans</a>
+  <a href="#education">03 — Survey</a>
+  <a href="#contact">04 — Contact</a>
+</div>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-sheet">
+        <div class="hero-meta-row">
+          <span>Sheet 01 / 05 — Index</span>
+          <span>Ahmedabad, Gujarat, IN</span>
+        </div>
+
+        <h1 class="hero-name">PARTHBHAI<br>BHUTKA</h1>
+        <p class="hero-role">
+          <strong>Software Developer</strong> in training — BSc IT, Gujarat University.
+          I draft interfaces in the browser and structure in the database, then wire the two together until the whole thing holds.
+        </p>
+
+        <div class="contact-strip">
+          <a href="tel:+916352737147">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h4l2 6-3 2a12 12 0 006 6l2-3 6 2v4a2 2 0 01-2 2C9.9 23 1 14.1 1 3a2 2 0 012-2z"/></svg>
+            +91 63527 37147
+          </a>
+          <a href="mailto:bhutkaparth1@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="1.5"/><path d="M2 6l10 7 10-7"/></svg>
+            bhutkaparth1@gmail.com
+          </a>
+          <a href="#" id="linkedinLink">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2 2 0 014 0V17M12 12.5V17"/></svg>
+            LinkedIn profile
+          </a>
+        </div>
+
+        <div class="title-block">
+          <div class="tb-cell">
+            <span class="tb-label">Drawn by</span>
+            <span class="tb-value">Parth Bhutka</span>
+          </div>
+          <div class="tb-cell">
+            <span class="tb-label">Discipline</span>
+            <span class="tb-value">Software Dev.</span>
+          </div>
+          <div class="tb-cell">
+            <span class="tb-label">Scale</span>
+            <span class="tb-value">1 : 1</span>
+          </div>
+          <div class="tb-cell">
+            <span class="tb-label">Status</span>
+            <span class="tb-value">Open to work</span>
+          </div>
+          <div class="tb-cell">
+            <span class="tb-label">Rev.</span>
+            <span class="tb-value">A — 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SPECS (skills) ============ -->
+  <section class="sheet" id="specs">
+    <div class="wrap">
+      <span class="eyebrow">Sheet 02 — Specifications</span>
+      <h2 class="sheet-title">Materials &amp; tools</h2>
+      <p class="sheet-sub">What I build with — languages, frameworks, and the working habits that hold a project together.</p>
+
+      <div class="spec-table" id="specTable">
+        <!-- rows injected -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="sheet" id="projects">
+    <div class="wrap">
+      <span class="eyebrow">Sheet 03 — Site plans</span>
+      <h2 class="sheet-title">Selected work</h2>
+      <p class="sheet-sub">Two builds, laid out the way you'd read a plan: what it's for, what it does, what it's made of.</p>
+
+      <div class="plan-grid">
+
+        <article class="plan-card">
+          <div class="plan-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3l8 4v10l-8 4-8-4V7z"/><path d="M12 12v9M4 7l8 4 8-4"/><path d="M12 8v4M10 10h4" stroke-width="1.8"/>
+            </svg>
+          </div>
+          <span class="plan-index">Plan A — Healthcare</span>
+          <h3 class="plan-title">Healthcare portal</h3>
+          <p class="plan-desc">A site built for hospitals, clinics, and practitioners to manage how patients reach them.</p>
+          <ul class="plan-features">
+            <li>Live chat between patients and staff</li>
+            <li>Doctor directory with profiles</li>
+            <li>Feedback form and emergency-call button</li>
+            <li>Appointment scheduling</li>
+          </ul>
+          <div class="plan-stack">
+            <span class="stack-tag">PHP</span><span class="stack-tag">HTML5</span><span class="stack-tag">CSS</span><span class="stack-tag">Bootstrap</span>
+          </div>
+        </article>
+
+        <article class="plan-card">
+          <div class="plan-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6M9 12h.01M15 12h.01M9 9h.01M15 9h.01"/>
+            </svg>
+          </div>
+          <span class="plan-index">Plan B — Techture</span>
+          <h3 class="plan-title">Techture — VDC platform</h3>
+          <p class="plan-desc">A virtual design &amp; construction site connecting teams, resources, and projects in one place.</p>
+          <ul class="plan-features">
+            <li>Services and product catalogue</li>
+            <li>Customer and project directories</li>
+            <li>Resource library with fast access</li>
+            <li>Built for collaboration start to finish</li>
+          </ul>
+          <div class="plan-stack">
+            <span class="stack-tag">HTML5</span><span class="stack-tag">SCSS</span><span class="stack-tag">JavaScript</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION / SURVEY ============ -->
+  <section class="sheet" id="education">
+    <div class="wrap">
+      <span class="eyebrow">Sheet 04 — Survey line</span>
+      <h2 class="sheet-title">Education</h2>
+      <p class="sheet-sub">Marked out year by year, like a benchmark line on a site survey.</p>
+
+      <div class="survey">
+        <div class="survey-line" id="surveyLine">
+          <div class="survey-item">
+            <span class="survey-year">2022 — 2025</span>
+            <h3 class="survey-course">BSc IT — Software Development</h3>
+            <p class="survey-inst">Gujarat University (GUAIM)</p>
+            <span class="survey-score">CPI <b>7.5</b> / 10</span>
+          </div>
+          <div class="survey-item">
+            <span class="survey-year">2022</span>
+            <h3 class="survey-course">12th — GSEB</h3>
+            <p class="survey-inst">Silver Bells School</p>
+            <span class="survey-score"><b>49.2%</b></span>
+          </div>
+          <div class="survey-item">
+            <span class="survey-year">2020</span>
+            <h3 class="survey-course">10th — GSEB</h3>
+            <p class="survey-inst">Aeon English Medium School</p>
+            <span class="survey-score"><b>51.45%</b></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER / CONTACT / REVISIONS ============ -->
+  <section class="sheet footer-sheet" id="contact">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-cta">
+          <span class="eyebrow">Sheet 05 — Notes</span>
+          <h2>Let's build<br>something.</h2>
+          <p>Open to junior developer roles and freelance web projects. The fastest way to reach me is email or a call.</p>
+          <a class="cta-link" href="mailto:bhutkaparth1@gmail.com">
+            Email me
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="footer-col">
+          <h3>Languages</h3>
+          <ul class="footer-list">
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Gujarati</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Off the clock</h3>
+          <ul class="footer-list">
+            <li>Travelling</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rev-table">
+        <div class="rev-row"><span>REV</span><span>DATE</span><span>DESCRIPTION</span></div>
+        <div class="rev-row"><span>A</span><span>2026</span><span>Portfolio issued — initial release</span></div>
+      </div>
+
+      <div class="foot-bottom">
+        <span>© 2026 Parth Bhutka</span>
+        <span>Ahmedabad, Gujarat — Sheet 05 of 05</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
